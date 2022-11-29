@@ -32,7 +32,7 @@ output_tr2=[
     [NO_PATH, NO_PATH, NO_PATH, 0, 0]
     ]
 
-#Test case 3: With negative value in vertics
+#Test case 3: With negative value in vertices
 
 input_tr3=[
     [0, -7, NO_PATH, -8], 
