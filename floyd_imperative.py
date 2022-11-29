@@ -1,7 +1,6 @@
 import sys
 import itertools
 
-# If there is no path between two nodes, the graph states INF. INF is defined below a large integer.
 NO_PATH=999
 
 graph = [[0, 7, NO_PATH, 8],
