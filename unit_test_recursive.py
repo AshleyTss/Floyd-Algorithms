@@ -1,13 +1,21 @@
 import unittest
-import sys
-import test_case
 from floyd_recursive import floyd
+import test_case
 
-NO_PATH=999
+class FloydOutputTest(unittest.TestCase):
 
-class testrecursive(unittest.TestCase):
+	def testfloyd1(self):
 
-	def test_floyd(self):
-		NO_PATH=999
-		MAX_LENGTH = len(graph[0])
-		self.assertEqual(floyd(test_case.input_tr1),test_case.output_tr1,"Incorrect")
+	    self.assertEqual(floyd(test_case.input_tr1),test_case.output_tr1,"Incorrect")
+
+	def testfloyd2(self):
+
+	    self.assertEqual(floyd(test_case.input_tr2),test_case.output_tr2,"Incorrect")
+
+	def testfloyd3(self):
+
+	    self.assertEqual(floyd(test_case.input_tr3),test_case.output_tr3,"Incorrect")
+
+	def testfloyd4(self):
+
+	    self.assertEqual(floyd(test_case.input_tr4),test_case.output_tr4,"Incorrect")
